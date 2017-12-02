@@ -1,0 +1,174 @@
+.wrapper{
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-gap: 2em;
+    grid-auto-rows: minmax(20px, auto);
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+
+
+.name{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    background-color: #4aaaa5;
+    color: white;
+    
+}
+
+
+ul {
+
+    position: fixed;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4aaaa5
+}
+
+li {
+    float: left;
+    
+}
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color:#4aaaa5;
+}
+
+.links {
+    grid-column: 3;
+    grid-row: 1;
+    align-self: right;
+   
+
+}
+.socialmedia {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row 1;
+    background-color: #4aaaa5;
+    color: white;
+
+
+}
+.insidesocialmedia{
+    grid-column-start:3;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    grid-auto-rows: minmax(100px, auto);
+    justify-items: center;
+    align-items: center;
+    background-image: url("C:/Users/lukec/Desktop/Basic-Portfolio-master/assets/images/small_steps.png");
+    
+}
+    
+}
+
+    
+    
+}
+
+.contact{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    float:center;
+    
+}
+
+.button{
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    
+}
+
+.button1:hover { box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+
+
+h3{ display: block;
+    background-color: #4aaaa5;
+    color: white;
+    block-size: 20px, 20px;
+    text-align: center
+}
+
+
+.portfolio{
+    grid-row-start:3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    background-color: #4aaaa5;
+    background-size: stretch;
+    color: white;
+    justify-self: center;
+
+}
+
+
+.insideportfolio{
+    display:grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border: 1px;
+    border-color: #dddddd;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color:#666666;
+    
+}
+
+body {
+    margin:auto;
+    background-image: url("C:/Users/lukec/Desktop/Basic-Portfolio-master/assets/images/small_steps.png");
+
+}
+
+
+
+
