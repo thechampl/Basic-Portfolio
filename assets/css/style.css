@@ -6,6 +6,8 @@
     color: white;
     
     border-bottom: solid #B09C9F 2px;
+    text-align: center;
+    
 
     
 }
@@ -112,9 +114,13 @@
     margin-right: 150px;
     background-color: #4aaaa5;
     width: 250px;
-    height: 50px;
-    padding: 10px;
-    text-align: center;
+    height: 60px;
+    padding-bottom: 6px;
+    align-content: center;
+    justify-content: center;
+    border: solid 2px #4aaaa5;
+  
+   
    
 
 }
@@ -215,8 +221,8 @@ li a:hover:not(.active) {
    
 
 
-}
 .contact{
+    text-align: left;
     margin-left: 150px;
     background-color: white;
     width: 650px;
@@ -255,9 +261,10 @@ li a:hover:not(.active) {
 
 
 .connectwithme{
+    text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     position: absolute;
-    top: 50%;
+    top: 120px;
     right: 0;
     color: #4aaaa5;
     display: block;
@@ -272,7 +279,8 @@ li a:hover:not(.active) {
 }
 
 .connectwithmeinside{
-    border-top: solid #B09C9F 2px;
+    align-content: center;
+       border-top: solid #B09C9F 2px;
     display: inline-block;
 
 }
