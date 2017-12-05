@@ -86,6 +86,7 @@
     height: auto;
 }
 .five{
+    float: left;
     margin: 50px;
     position: relative;
     text-align: center;
@@ -94,8 +95,7 @@
 
 .insidefive{
     position: absolute;
-    top: 90%;
-    left: 30%;
+    top: 60%;
     background-color: #4aaaa5;
     width: 202px;
     height: auto;
